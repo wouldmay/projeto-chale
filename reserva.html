@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Chalé Hotel</title>
+
+	<!--Estilo costumizado-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body class="contato">
+
+	<div id="container"><!--Inicio container-->
+		<div id="topo"><!--inicio topo-->
+			
+			<div id="area-logo">
+				<h1 class="logo">
+					<a href="index.html">Chalé Hotel</a>
+				</h1>
+			</div>
+
+			<div id="area-menu">
+				<div id="conteudo-menu">
+					<div id="menu-locais">
+						<span class="locais">
+							Rio de Janeiro - São Paulo - Belo Horizonte
+						</span>
+						<a class="reserva" href="reserva.html">Reservar</a>
+						<div style="clear: both;"></div>
+					</div>
+
+					<div id="menu"> <!--Inicio navegação-->
+						<ul id="navegacao">
+							<li><a href="index.html">Home</a></li>
+							<li><a id="historia" href="historia.html">História</a></li>
+							<li><a id="imprensa" href="imprensa.html">Imprensa</a></li>
+							<li><a id="gastronomia" href="gastronomia.html">Gastronomia</a></li>
+							<li><a id="contato" href="contato.html">Contato</a></li>
+						</ul>
+
+						<img class="depoimento" src="imagens/depoimento.png">
+					</div><!--Fim /navegação-->
+
+				</div>
+			</div>
+
+		</div><!--fim /topo-->
+
+		<div id="area-principal">
+			<div class="conteudo">
+				<h2>Faça sua Reserva!</h2>
+
+				<form>
+
+					<fieldset>
+						<legend>Verifique disponibilidade da data desejada.</legend>
+
+						<label for="estado">Estado</label>
+						<select name="estado">
+							<option value="rj">Rio de Janeiro</option>
+							<option value="sp">São Paulo</option>
+							<option value="mg">Minas Gerais</option>
+						</select>
+
+						<br>
+
+						<label for="data-entrada">Data entrada</label>
+						<input id="date" type="date">
+
+						<br>
+
+						<label for="data-saida">Data saída</label>
+						<input id="date" type="date">
+
+						<br>
+
+						<label for="adultos">Adultos</label>
+						<select name="adultos">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+
+						<br>
+							<label for="criancas">Crianças</label>
+							<select name="criancas">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+						</select>
+
+						<br>
+
+						<input class="submit" type="submit" value="Verificar datas">
+
+					</fieldset>
+
+				</form>
+
+			</div>
+		</div>
+
+		<div id="area-lateral">
+			<div class="conteudo">
+				<ul id="lista-lateral">
+
+					<li>
+						<a href="apartamentos.html">
+							<img src="imagens/apartamento.jpg" width="150">
+							<h3>Apartamento</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sagittis</p>
+						</a>
+					</li>
+					<li>
+						<a href="gastronomia.html">
+							<img src="imagens/restaurante.jpg" width="150">
+							<h3>Restaurantes</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sagittis</p>
+						</a>
+					</li>
+					<li>
+						<a href="piscinas.html">
+							<img src="imagens/piscina.jpg" width="150">
+							<h3>Piscina</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sagittis</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="rodape">
+			<span>&copy; Copyright 2000-2023 Chalé Hotel</span>
+		</div>
+
+	</div> <!-- fim /container-->
+
+</body>
+</html>
